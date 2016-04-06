@@ -63,7 +63,7 @@ public class Manager
 		
 		for (Minefield m : minefields)
 		{
-			String result = "Field #" + minefieldCount + ":\n";
+			String result = "Field #" + minefieldCount + ":\r\n";
 			minefieldCount++;
 			
 			for (int row = 1; row < m.getRows() + 1; row++)
@@ -105,7 +105,7 @@ public class Manager
 					}
 				}
 				
-				result += "\n";
+				result += "\r\n";
 			}
 			
 			System.out.println(result);
